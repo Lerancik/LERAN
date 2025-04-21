@@ -1,0 +1,324 @@
+{% load static %}
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Машины, что можем вам предложить!</h2>
+                    <h3 class="section-subheading text-muted">Для того чтобы узнать больше марок, обратитесь по номеру ниже.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="{% static 'assets/img/portfolio/1mers.jpg' %}" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">	Mercedes</div>
+                                <div class="portfolio-caption-subheading text-muted">Mercedes‑Benz CLA Coupe</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="{% static 'assets/img/portfolio/1bmw.jpg' %}" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">BMW</div>
+                                <div class="portfolio-caption-subheading text-muted">BMW i8</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="{% static 'assets/img/portfolio/1volz.jpg' %}" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Volkswagen</div>
+                                <div class="portfolio-caption-subheading text-muted">Volkswagen Tharu</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="{% static 'assets/img/portfolio/2mers.jpg' %}" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Mercedes</div>
+                                <div class="portfolio-caption-subheading text-muted">Mercedes-AMG GT</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="{% static 'assets/img/portfolio/2bmw.jpg' %}" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">BMW</div>
+                                <div class="portfolio-caption-subheading text-muted">BMW 7</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="{% static 'assets/img/portfolio/2volz.jpg' %}" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Volkswagen</div>
+                                <div class="portfolio-caption-subheading text-muted">Volkswagen Amarok</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Modals-->
+
+
+      <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Mercedes</h2>
+                                    <p class="item-intro text-muted">Mercedes‑Benz CLA Coupe.</p>
+                                    <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/1mers.jpg' %}" alt="..." />
+                                    <p>Mercedes‑Benz CLA Coupé — это стильный и динамичный представитель модельного ряда Mercedes, сочетающий элегантность купе с практичностью седана. Отличается выразительным дизайном с характерной "акульей" передней частью, безрамочными дверями и спортивным силуэтом.
+
+Важные особенности:
+
+Двигатели: широкая линейка турбированных моторов, включая экономичные дизели и мощные бензиновые версии.
+
+Технологии: фирменная система MBUX с голосовым управлением, адаптивные ассистенты вождения, цифровая приборная панель.
+
+Комфорт и безопасность: премиальные материалы отделки, отличная шумоизоляция и передовые системы безопасности (включая активное торможение и удержание в полосе).
+
+CLA Coupé — выбор для тех, кто хочет выделяться на дороге, не жертвуя комфортом и инновациями.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Brand: </strong>
+                                            Mercedes
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Coupé
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">BMW</h2>
+                                    <p class="item-intro text-muted">BMW i8</p>
+                                    <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/1bmw.jpg' %}" alt="..." />
+                                    <p>BMW i8 — это высокопроизводительные подключаемые гибридный спортивный автомобиль. В отличие от полностью электрических автомобилей, i8 оснащен как синхронным электродвигателем, так и 1,5-литровым двигателем TwinPower Turbo, что дает водителям возможность выбора между бензиновым двигателем, электрическим двигателем или эффективной смесью обоих.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            BMW
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            BMW i8
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Volkswagen</h2>
+                                    <p class="item-intro text-muted">Volkswagen Tharu</p>
+                                    <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/1volz.jpg' %}" alt="..." />
+                                    <p>Ультракомпактный городской кроссовер сочетающий в себе современный, динамичный дизайн и богатое технического оснащение</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Volkswagen
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Volkswagen Tharu
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Mercedes</h2>
+                                    <p class="item-intro text-muted">Mercedes-AMG GT.</p>
+                                    <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/2mers.jpg' %}" alt="..." />
+                                    <p>Модели AMG обычно имеют более агрессивный вид, более высокую производительность, лучшую управляемость, лучшую устойчивость и больше углеродного волокна, чем их обычные аналоги Mercedes-Benz. Модели AMG обычно являются самым дорогим и самым производительным вариантом каждого класса Mercedes-Benz.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Mercedes
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            AMG GT
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">BMW</h2>
+                                    <p class="item-intro text-muted">BMW 7</p>
+                                    <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/2bmw.jpg' %}" alt="..." />
+                                    <p>Традиционно он представляет технологии и темы внешнего дизайна раньше других моделей в линейке BMW. Первое поколение 7-й серии оснащалось рядными 6-цилиндровыми бензиновыми двигателями, а последующие поколения оснащались рядными 4-цилиндровыми, рядными 6-цилиндровыми, V8- и V12-цилиндровыми двигателями как с естественным всасыванием, так и с турбонаддувом.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            BMW
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            BMW 7
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Volkswagen</h2>
+                                    <p class="item-intro text-muted">Volkswagen Amarok</p>
+                                    <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/2volz.jpg' %}" alt="..." />
+                                    <p>Volkswagen Amarok — среднеразмерный пикап, разработанный Volkswagen. Имеет 2- или 4-дверную кабину, задний или полный привод, а также 3 комплектации — Trendline, Comfortline и Highline.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Volkswagen
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Volkswagen Amarok
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
